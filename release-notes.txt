@@ -43,7 +43,7 @@ Thiết kế và triển khai cơ sở dữ liệu (CSDL), các script SQL liên
 Phát triển backend trong thư mục java (controller, service, dao, utils).
 Tổng hợp release notes và báo cáo cuối kỳ.
 Xử lý các chức năng chính của hệ thống như xác thực, quản lý sản phẩm và giỏ hàng.
-Tỷ lệ đóng góp: 35%
+Tỷ lệ đóng góp: 40%
 
 Võ Anh Dũng - Phát triển giao diện người dùng (Frontend)
 
@@ -51,7 +51,7 @@ Nhiệm vụ:
 Xây dựng giao diện web trong thư mục webapp/views và các file JSP quan trọng (index.jsp, common, decorators).
 Tối ưu hóa giao diện người dùng (UI/UX).
 Tích hợp các thành phần từ backend với giao diện.
-Tỷ lệ đóng góp: 25%
+Tỷ lệ đóng góp: 30%
 
 Phan Thanh Duy Thịnh - Backend Developer
 
@@ -59,14 +59,14 @@ Nhiệm vụ:
 Phát triển logic xử lý phía backend trong thư mục java (service, dao, dto, mapper).
 Hỗ trợ các module như giỏ hàng, thanh toán, theo dõi đơn hàng.
 Tích hợp với cơ sở dữ liệu và kiểm tra các truy vấn.
-Tỷ lệ đóng góp: 20%
+Tỷ lệ đóng góp: 15%
 
-Nguyễn Đình Toàn - Kiểm thử và triển khai hệ thống
+Nguyễn Đình Toàn - Kiểm thử và triển khai hệ thống 
 
 Nhiệm vụ:
 Thực hiện kiểm thử toàn bộ hệ thống, bao gồm cả backend và giao diện.
 Kiểm tra logic xử lý và các API (controller, filter).
 Đóng gói và triển khai hệ thống, cấu hình thư mục WEB-INF.
 Kiểm tra tính năng upload (thư mục uploads) và template.
-Tỷ lệ đóng góp: 20%
+Tỷ lệ đóng góp: 15%
 
