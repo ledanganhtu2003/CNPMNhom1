@@ -1,0 +1,72 @@
+Hướng dẫn cài đặt và chạy source code
+1. Cài đặt môi trường 
+1.1. Cài đặt IntelliJ IDEA
+Tải IntelliJ IDEA từ JetBrains
+1.2. Cài đặt Tomcat 9
+Tải tomcat 9 từ https://tomcat.apache.org/download-90.cgi
+1.3. Tải JDK từ OpenJDK
+
+2. Import project vào IntelliJ IDEA
+2.1. Mở IntelliJ IDEA.
+2.2. Chọn “File > Open” và điều hướng đến thư mục chứa project.
+
+3. Cấu hình Tomcat (nếu cần chạy Servlet)
+Cài đặt Apache Tomcat:
+Thêm Tomcat vào IntelliJ IDEA:
+Vào File > Project Structure > Modules.
+Chọn + và thêm Web Module.
+Tạo cấu hình Tomcat bằng cách vào Run > Edit Configurations > Add New Configuration > Tomcat Server.
+Cấu hình đường dẫn đến thư mục web.xml.
+Bấm Configure tìm và điều hướng tới thư mục tomcat 9 đã tải bấm ok
+
+3. Chạy Source Code
+3.1. Click dấu run project bắt đầu chạy
+
+
+
+
+---------------------------------------------------------------------------------------------
+
+
+
+
+
+Thông Tin Nhóm - Phân Công Công Việc & Tỷ Lệ Đóng Góp
+Tên dự án: Website bán điện thoại
+Thành viên nhóm:
+
+Lê Đăng Anh Tú - Trưởng nhóm
+
+Nhiệm vụ:
+Quản lý và phân công công việc cho các thành viên.
+Thiết kế và triển khai cơ sở dữ liệu (CSDL), các script SQL liên quan.
+Phát triển backend trong thư mục java (controller, service, dao, utils).
+Tổng hợp release notes và báo cáo cuối kỳ.
+Xử lý các chức năng chính của hệ thống như xác thực, quản lý sản phẩm và giỏ hàng.
+Tỷ lệ đóng góp: 35%
+
+Võ Anh Dũng - Phát triển giao diện người dùng (Frontend)
+
+Nhiệm vụ:
+Xây dựng giao diện web trong thư mục webapp/views và các file JSP quan trọng (index.jsp, common, decorators).
+Tối ưu hóa giao diện người dùng (UI/UX).
+Tích hợp các thành phần từ backend với giao diện.
+Tỷ lệ đóng góp: 25%
+
+Phan Thanh Duy Thịnh - Backend Developer
+
+Nhiệm vụ:
+Phát triển logic xử lý phía backend trong thư mục java (service, dao, dto, mapper).
+Hỗ trợ các module như giỏ hàng, thanh toán, theo dõi đơn hàng.
+Tích hợp với cơ sở dữ liệu và kiểm tra các truy vấn.
+Tỷ lệ đóng góp: 20%
+
+Nguyễn Đình Toàn - Kiểm thử và triển khai hệ thống
+
+Nhiệm vụ:
+Thực hiện kiểm thử toàn bộ hệ thống, bao gồm cả backend và giao diện.
+Kiểm tra logic xử lý và các API (controller, filter).
+Đóng gói và triển khai hệ thống, cấu hình thư mục WEB-INF.
+Kiểm tra tính năng upload (thư mục uploads) và template.
+Tỷ lệ đóng góp: 20%
+
